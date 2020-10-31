@@ -23,6 +23,7 @@ main {
     position: relative;
 }
 
+
 h1 {
     font-size: 64px;
     position: absolute;
@@ -35,11 +36,16 @@ main .principal{
     padding: 0px;    
 }
 
+.principal img {
+    display: block;
+}
+
+
 main .principal p {
     position: absolute;
     left: 63px;
     top: 308px;
-    width: 300px;
+    width: 320px;
     height: 97px;
     font-size: 36px;
     font-weight: bold;
@@ -153,6 +159,7 @@ main .contacto h2 {
 main .contacto .contotal {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 
@@ -161,27 +168,35 @@ main .contacto h3 {
     background-color: rgb(22, 135, 160);
 }
 
-main .contacto .conizquierda div {
+/*main .contacto .conizquierda input {
     width: 360px;
     padding: 20px;
     background-color: white;
     color: gray;
 }
 
-main .contacto .conderecha div {
+main .contacto .conderecha input {
+    width: 360px;
+    padding: 20px;
+    background-color: white;
+    color: gray;
+}*/
+
+main .contacto input {
     width: 360px;
     padding: 20px;
     background-color: white;
     color: gray;
 }
 
-main .contacto .descripcion {
+
+main .contacto textarea {
     width: 796px;
     height: 150px;
     padding: 20px;
     background-color: white;
     color: grey;
-    margin: auto;
+    margin-left: 30px;
 }
 
 main .contacto button {

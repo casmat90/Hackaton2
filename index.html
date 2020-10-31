@@ -14,8 +14,8 @@
         <main>
             <section class="principal">
                 <h1>Pachaqtec</h1>
-                <p>Hola, mi nombre es Carlos Asmat</p>
-                <figure><img src="./images/principal/image 1.svg" alt=""></figure>
+                <p>Hola, mi nombre es Carlos Eduardo</p>
+                <img src="./images/principal/image 1.svg" alt="">
             </section>
             <section class="about">
                 <h2>Sobre mí</h2>
@@ -100,23 +100,27 @@
             </section>
             <section class="contacto">
                 <h2>Contacto</h2>
+                <form action="">
                 <div class="contotal">
-                    <div class="conizquierda">
+                   
+                       <div class="conizquierda">
                         <h3></h3>
-                        <div>Nombre</div>
+                        <input type="text" id="name" name="name" placeholder="Nombre">
                         <h3></h3>
-                        <div>Email</div>
+                        <input type="email" id="email" name="email" placeholder="Email">
                     </div>
                     <div class="conderecha">
                         <h3></h3>
-                        <div>Apellido</div>
+                        <input type="text" id="lastname" name="lastname" placeholder="Apellido">
                         <h3></h3>
-                        <div>Teléfono</div>
+                        <input type="tel" id="phone" name="phone" placeholder="Teléfono">
                     </div>
+               
                 </div>
                 <h3></h3>
-                <div class="descripcion">Descripcion</div>
-                <button>ENVIAR</button>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción"></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
             </section>
         </main>
     </div>
